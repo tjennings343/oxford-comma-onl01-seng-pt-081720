@@ -6,6 +6,6 @@ def oxford_comma(array)
   else array.size >= 3
     long_array = array.pop
     array.push(" and #{long_array}")
-    array << long_array
+    
 end
 end
