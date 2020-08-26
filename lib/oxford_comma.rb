@@ -5,6 +5,7 @@ def oxford_comma(array)
     array.join (" and ")
   else array.size >= 3
     long_array = array.pop
+    array.push(", and") 
     array << long_array
 end
 end
